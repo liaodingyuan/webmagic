@@ -6,6 +6,7 @@ import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
 import us.codecraft.webmagic.processor.PageProcessor;
 
+//import javax.xml.bind.SchemaOutputResolver;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,6 +47,7 @@ public class BaiduBaikePageProcessor implements PageProcessor {
         for (ResultItems resultItemse : resultItemses) {
             System.out.println(resultItemse.getAll());
         }
+        System.out.printf("lll");
         spider.close();
     }
 }
